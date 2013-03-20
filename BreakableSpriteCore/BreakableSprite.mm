@@ -50,7 +50,6 @@
         else
         {
             determinant = calculate_determinant_2x3(sprite.entryPoint.x, sprite.entryPoint.y, sprite.exitPoint.x, sprite.exitPoint.y, point.x, point.y);
-            
             if (determinant > 0)
             {
                 sprite1Vertices[sprite1VertexCount++] = point;
@@ -58,7 +57,6 @@
             else
             {
                 sprite2Vertices[sprite2VertexCount++] = point;
-                
             }
         }
     }
@@ -208,7 +206,6 @@ int comparator(const void *a, const void *b) {
 
         if (referenceDeterminant * determinant < 0.0f)
         {
-
             return NO;
         }
     }
