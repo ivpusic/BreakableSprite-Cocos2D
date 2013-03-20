@@ -18,6 +18,6 @@ After doing this you can "cut" object in following way:
 ```
 After this, body will be cutted at points specified with parameters "beginCutPoint" and "endCutPoint"
 
-For any questions you can contant me on mail: pusic007@gmail.com
+For any questions you can contact me on mail: pusic007@gmail.com
 
 
