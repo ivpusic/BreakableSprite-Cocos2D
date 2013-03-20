@@ -15,10 +15,10 @@
     // world member defined in BreakableSprite.h class
     world = instanceWorld;
     
-    int32 count = 4;
     NSString *file = @"teeterpe.png";
     CCTexture2D *texture = [[CCTextureCache sharedTextureCache] addImage: file];
     
+    int32 count = 4;
     b2Vec2 verts[] = {
         b2Vec2(0.000 / PTM_RATIO, 29.000 / PTM_RATIO),
         b2Vec2(64.000 / PTM_RATIO, 29.000 / PTM_RATIO),
