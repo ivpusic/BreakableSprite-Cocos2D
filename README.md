@@ -3,9 +3,10 @@ BreakableSprite-Cocos2D
 
 Make breakable sprite with texture and physics (Box2D), and cut sprite at two specified points
 
-I have made for testing purposes of this project, class called BoxCover. In that class is example of initialisation 
+First what you need is to import "BreakableSpriteCore" and "PRKit" folders in your project. I have made for testing
+purposes of this project, class called BoxCover. In that class is example of initialisation 
 BreakableSprite object. You first must create b2Body, then load texture, and finally pass created body and texture 
-to method for creating and initializing BreakalbeSprite.
+to method for creating and initializing BreakalbeSprite. Example of this is located in BoxCover.mm file.
 
 In mainLayer which uses BoxCover class, you can create class object in this way:
 ```
