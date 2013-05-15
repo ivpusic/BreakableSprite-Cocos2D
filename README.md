@@ -15,7 +15,7 @@ BoxCover *cover = [[BoxCover alloc] initWithLayer:levelLayer world:levelWorld wi
 
 After doing this you can "cut" object in following way:
 ```
-[cover splitPolygonSpriteOnLayer:levelLayer beginCutPoint:b2Vec2(1,0.9) endCutPoint:b2Vec2(1,0.94)];
+[cover splitPolygonSpriteOnLayer:levelLayer beginCutPoint:b2Vec2(1, 0.9) endCutPoint:b2Vec2(1, 0.94)];
 ```
 After this, body will be cutted at points specified with parameters "beginCutPoint" and "endCutPoint"
 
